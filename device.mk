@@ -77,11 +77,3 @@ PRODUCT_SHIPPING_API_LEVEL := 29
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/lancelot/lancelot-vendor.mk)
-
-# Infinity-X flags
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.product.marketname=Xiaomi Redmi 9 \
-    ro.infinity.soc=Mediatek Helio G80 \
-    ro.infinity.battery=5020 mAh \
-    ro.infinity.display=1080 x 2340, 60 Hz \
-    ro.infinity.camera=13MP+8MP+5MP+2MP
